@@ -47,7 +47,7 @@ void sleep(int ms) {
 void typeOut(string sen) {
   for (int i = 0; sen[i] != '\0'; i++ ) {
   	   cout << sen[i] << flush; //print each index one at a time after each is flushed and slept for specified time
-      sleep(35); //35
+      sleep(20); //20
   	 if (sen[i] == ' ')
       {
   	   sleep(1); //1
